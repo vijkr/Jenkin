@@ -1,5 +1,6 @@
 provider "google" {
   project     = "thematic-carver-414815"
+  credentials = "vij.json"
   #credentials = file("tcb-project-371706-b114ce01e529.json")
   region      = "us-east1"
 
