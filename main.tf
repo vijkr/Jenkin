@@ -19,3 +19,5 @@ resource "google_compute_subnetwork" "my-custom-subnet1" {
 }
 
 #### test file to push
+
+##git credentialsId: '7eb642ca-f357-4553-963f-d5907d92cc6e', url: 'https://github.com/vijkr/jenkin.git'
