@@ -19,6 +19,14 @@ resource "google_compute_subnetwork" "my-custom-subnet1" {
   region        = "us-east1"
 }
 
+resource "google_compute_instance" "vm_instance" {
+  name         = "nginx-instance"
+  machine_type = "f1-micro"
+
+  tags = ["nginx-instance"]
+}
+
+
 #### test file to push
 
 ##git credentialsId: '7eb642ca-f357-4553-963f-d5907d92cc6e', url: 'https://github.com/vijkr/jenkin.git'
