@@ -19,12 +19,12 @@ resource "google_compute_subnetwork" "my-custom-subnet1" {
   region        = "us-east1"
 }
 
-resource "google_compute_instance" "vm_instance" {
-  name         = "nginx-instance"
-  machine_type = "f1-micro"
+#resource "google_compute_instance" "vm_instance" {
+ # name         = "nginx-instance"
+  #machine_type = "f1-micro"
 
-  tags = ["nginx-instance"]
-}
+  #tags = ["nginx-instance"]
+#}
 
 
 #### test file to push
